@@ -1,0 +1,23 @@
+{
+  "name": "Coastal Flow Demo Leads",
+  "columns": [
+    { "name": "source_submission_id", "type": "string" },
+    { "name": "lead_id", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "email", "type": "string" },
+    { "name": "phone", "type": "string" },
+    { "name": "project_type", "type": "string" },
+    { "name": "project_description", "type": "string" },
+    { "name": "project_location", "type": "string" },
+    { "name": "summary", "type": "string" },
+    { "name": "urgency_candidate", "type": "string" },
+    { "name": "extraction_confidence", "type": "number" },
+    { "name": "extraction_boundary", "type": "string" },
+    { "name": "state", "type": "string" },
+    { "name": "next_action", "type": "string" },
+    { "name": "response_draft", "type": "string" },
+    { "name": "follow_up_required", "type": "boolean" },
+    { "name": "policy_status", "type": "string" },
+    { "name": "decision_owner", "type": "string" }
+  ]
+}

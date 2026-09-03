@@ -1,0 +1,28 @@
+{
+  "happyPath": {
+    "source_submission_id": "CFM-DEMO-001",
+    "lead_id": "LEAD-CFM-DEMO-001",
+    "state": "READY_FOR_REVIEW",
+    "project_location": "Clearwater Municipal Marina",
+    "external_send_performed": false
+  },
+  "meaningfulException": {
+    "source_submission_id": "CFM-DEMO-002",
+    "lead_id": "LEAD-CFM-DEMO-002",
+    "state": "NEEDS_INFORMATION",
+    "project_location": "",
+    "urgency_candidate": "REVIEW_PROMPTLY",
+    "external_send_performed": false
+  },
+  "schemaRejection": {
+    "source_submission_id": "",
+    "state": "REJECTED",
+    "persisted": false,
+    "external_send_performed": false
+  },
+  "idempotency": {
+    "inputItemsPerRun": 4,
+    "uniquePersistableSubmissionIds": 2,
+    "durableRowsAfterRepeatedRuns": 2
+  }
+}

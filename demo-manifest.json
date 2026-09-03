@@ -1,0 +1,38 @@
+{
+  "demo": "Coastal Flow — Inquiry to Qualified Lead Demo",
+  "mode": "BUILD",
+  "instance": {
+    "identity": "n8n-lab",
+    "url": "http://localhost:5679",
+    "evidence": "SYSTEM_OBSERVED from /Users/jordan/.pi/agent/mcp.json",
+    "scope": "isolated local demo"
+  },
+  "ownership": {
+    "workflowCreatedInThisRun": true,
+    "dataTableCreatedInThisRun": true,
+    "workflowId": "xIn7KLkIZBh7wbJ3",
+    "workflowUrl": "http://localhost:5679/workflow/xIn7KLkIZBh7wbJ3",
+    "projectId": "FTKa7QjEV8J3x0RP",
+    "projectName": "Jordan Davis <0davisjordan@gmail.com>",
+    "dataTableId": "NfiDuGqUfwUAkXd4",
+    "dataTableName": "Coastal Flow Demo Leads"
+  },
+  "safety": {
+    "active": false,
+    "credentials": [],
+    "externalSends": false,
+    "realCustomerData": false,
+    "quoteCalculation": false,
+    "projectAcceptance": false
+  },
+  "verification": {
+    "workflowSdkValid": true,
+    "nodeConfigsValid": true,
+    "executionIds": ["3", "4"],
+    "executionStatuses": ["success", "success"],
+    "schemaRejectionObserved": true,
+    "rejectedSubmissionPersisted": false,
+    "durableLeadRowsAfterTwoRuns": 2,
+    "expectedUniqueSubmissionIds": ["CFM-DEMO-001", "CFM-DEMO-002"]
+  }
+}

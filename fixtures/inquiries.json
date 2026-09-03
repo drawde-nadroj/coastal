@@ -1,0 +1,38 @@
+[
+  {
+    "source_submission_id": "CFM-DEMO-001",
+    "fixture_case": "happy_path",
+    "name": "Jordan Lee",
+    "email": "jordan.lee@example.test",
+    "phone": "727-555-0101",
+    "project_type": "Marine Utility — Water System",
+    "project_description": "Location: Clearwater Municipal Marina. A potable water line is leaking near B dock. Please contact us to discuss an assessment."
+  },
+  {
+    "source_submission_id": "CFM-DEMO-002",
+    "fixture_case": "missing_location_exception",
+    "name": "Sam Ortiz",
+    "email": "sam.ortiz@example.test",
+    "phone": "",
+    "project_type": "Marine Utility — Emergency Repair",
+    "project_description": "A buried marina water main failed overnight. We need to discuss the next safe step, but the project location was not included."
+  },
+  {
+    "source_submission_id": "CFM-DEMO-001",
+    "fixture_case": "duplicate_replay",
+    "name": "Jordan Lee",
+    "email": "jordan.lee@example.test",
+    "phone": "727-555-0101",
+    "project_type": "Marine Utility — Water System",
+    "project_description": "Location: Clearwater Municipal Marina. A potable water line is leaking near B dock. Please contact us to discuss an assessment."
+  },
+  {
+    "source_submission_id": "",
+    "fixture_case": "missing_id_rejection",
+    "name": "Casey Morgan",
+    "email": "casey.morgan@example.test",
+    "phone": "",
+    "project_type": "General Inquiry",
+    "project_description": "Location: St. Petersburg. Please review this synthetic submission without an idempotency key."
+  }
+]
